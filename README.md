@@ -55,7 +55,11 @@
 htons 和 ntohs 其实看函数名就能看明白
 
 htons：h(HBO) to n(NBO) s(short) // 主机字节顺序 转换为 网络字节顺序 的 short 类型
+
 ntohs：n(NBO) to h(HBO) s(short)
+
 同理还有两个函数：
+
 htonl：h(HBO) to n(NBO) l(long) // 主机字节顺序 转换为 网络字节顺序 的 long 类型
+
 ntohl：n(NBO) to h(HBO) l(long)
